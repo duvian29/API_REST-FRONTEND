@@ -1,16 +1,21 @@
-# React + Vite
+# 🎬 Sistema de Gestión de Películas y Series - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+repositorio del Frontend para el proyecto de **Ingeniería Web 2**. La aplicación permite la gestión de un catálogo de medios, incluyendo géneros, directores, productoras y tipos de contenido.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **React.js**
+* **Vite**
+* **Bootstrap, Bootstrap Icons**
+* **Axios**
 
-## React Compiler
+## Estructura del Proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* `src/paginas/`
+* `src/servicios/`
+* `src/App.jsx`
+* `.gitignore`
 
-## Expanding the ESLint configuration
+* **Duvian Augusto yepes toro**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
