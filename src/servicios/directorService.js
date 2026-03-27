@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:4000/api/directores';
+const BASE_URL = 'https://api-peliculas-backend.onrender.com/api/directores';
 
 export const getDirectores = async () => {
     const res = await axios.get(BASE_URL);
