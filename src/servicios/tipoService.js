@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:4000/api/tipos';
+const BASE_URL = 'https://api-peliculas-backend.onrender.com/api/tipos';
 
 export const getTipos = async () => {
     const res = await axios.get(BASE_URL);
