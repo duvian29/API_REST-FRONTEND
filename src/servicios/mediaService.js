@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:4000/api/media';
+const BASE_URL = 'https://api-peliculas-backend.onrender.com/api/media';
 
 export const getMedia = async () => {
     const res = await axios.get(BASE_URL);
